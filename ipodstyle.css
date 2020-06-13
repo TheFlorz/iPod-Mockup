@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+body{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.container{
+	position: ;
+	width: 207px;
+	height: 480px;
+	background-color: #3c1361;
+	border-radius: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: inset 18px -18px 30px -1px rgba(0, 0, 0, 0.4);
+	margin: 2em;
+
+}
+.top-button{
+	position: relative;
+	   width: 8px;
+		height: 3px;
+		background-color: silver;
+		border-radius: inset 2px;
+		top: -3px;
+		right: -16px;
+}
+
+.screen{
+	background-color: white;
+	height: 280px;
+	width: 180px;
+	position: relative;
+	right: -9px;
+	top: 5px;
+	border: 6px solid black;
+	border-radius: 10px;
+}
+.top{
+	background-color: ;
+	height: 10px;
+}
+.text{
+	font-size: 10px;
+	color: black;
+	padding: 2px;
+	margin: 2px;
+}
+#top{
+	color: lightblue;
+	position: relative;
+	right: -140px;
+	top: -20px;
+    font-size: 10px;
+}
+#main{
+	margin-left: 1px;
+
+}
+.battery{
+     	top: 6px;
+     	position: absolute;
+     	left: 155px;
+     	margin-right: 5px;
+     	
+     }
+     .battery1{
+     	background-color: #98fb98;
+     	width: 15px;
+     	height: 7px;
+     	border: 2px gray;
+     }
+     .battery2{
+     	background-color: #98fb98;
+     	width: 1px;
+     	height: 3px;
+     	border: 1px gray;
+     	left: 16px;
+     	top: 2px;
+     	position:absolute;
+     }
+#right{
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	font-style: 10px;
+	color: white;
+
+}
+.music{
+	font-family: 'Ropa Sans', sans-serif;
+	font-size: 15px;
+	color: white;
+	background-color: lightblue;
+	position: relative;
+	top: -8px;
+}
+.menu1{
+	padding-bottom: 5px;
+	font-family: 'Ropa Sans', sans-serif;
+	font-size: 15px;
+}
+.reader{
+	background-image: url('img/photo2.jpg');
+	background-repeat: no-repeat;
+	background-position:;
+	background-size: cover;
+	border-radius: 0px 0px 3px 3px;
+	height: 70px;
+	position: relative;
+	top: -4px;
+}
+.number{
+	color: white;
+	font-family: 'Ropa Sans', sans-serif;
+	font-size: 10px;
+	position: relative;
+	margin-left: 15px;
+	bottom: -48px;
+
+}
+.bar{
+	background-color: gray;
+	background-image: linear-gradient(to right, skyblue, skyblue, white);
+	height: 7px;
+	width: 100px;
+	position: relative;
+	bottom: -40px;
+	right: -40px;
+}
+.number2{
+	color: white;
+	font-family: 'Ropa Sans', sans-serif;
+	font-size: 10px;
+	position: relative;
+	right: -150px;
+	bottom: -30px;
+}
+.controls{
+ 	background-color: white;
+	height: 120px;
+	width: 120px;
+	position: relative;
+	bottom: -50px;
+	border-radius: 50%;
+	right: -45px ;
+	top: 20px;
+}
+.middle-button{
+	background-color: #3c1361;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: relative;
+	top: 35px;
+	right: -35px;
+	border: 1px pink;
+}
+.menu{
+	font-size: 10px;
+	position: absolute;
+	top: 10px;
+	right: 45px;
+	color: gray;
+	font-family: 'Ropa Sans', sans-serif;
+}
+.menu:hover, .forward:hover, .play:hover, .pause:hover, .backward:hover{
+    color: #630e87;
+    cursor: pointer;
+}
+.forward{
+	font-size: 10px;
+	position: absolute;
+	right: 10px;
+	color: gray;
+}
+.play{
+	font-size: 8px;
+	position: absolute;
+	bottom: 10px;
+	right: 60px;
+	color: gray;
+}
+.pause{
+	font-size: 8px;
+	position: absolute;
+	bottom: 10px;
+	right: 50px;
+	color: gray;
+}
+.backward{
+	font-size: 10px;
+	position: absolute;
+	left: 10px ;
+	color: gray;
+}
